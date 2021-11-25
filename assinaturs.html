@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/452324c7bd.js" crossorigin="anonymous"></script>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="page">
+        <div class="main-header">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <i class="fas fa-ellipsis-v fa-2x d-none" style="color: #fff;"></i>
+                    <i class="fas fa-bars fa-2x d-none" style="color: #fff;"></i>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo (1).png" alt="" width="30">
+                        </a>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div id="input-search" class="input-search header-search nav-item my-auto mr-2">
+                            <form action="" class="d-flex align-items-center form" id="form">
+                                <input class="search-input form-control" placeholder="Buscar algo..." type="search">
+                                <span class="search-icon ml-1">
+                                    <img src="img/search (1).png" alt="" width="20">
+                                </span>
+                            </form>
+                        </div>
+                        <div class="dropdown main-header-message right-toggle">
+                            <a class="menu-icons">
+                                <img src="img/menu.png" alt="" width="20">
+                            </a>
+                        </div>
+                        <div class="dropdown main-profile-menu nav nav-item nav-link">
+                            <a href="#" class="profile-user">
+                                <img src="img/1.jpg" alt="">
+                            </a>
+                            <div class="dropdown-menu animated fadeInUp">
+                                <div class="main-header-profile header-img">
+                                    <h6>Mack Adamia</h6>
+                                    <span>Premium Member</span>
+                                </div>
+                                <a class="dropdown-item">
+                                    <i class="fas fa-user-alt"></i>
+                                    Meu perfil
+                                </a>
+                                <a class="dropdown-item">
+                                    <i class="fas fa-edit"></i>
+                                    Editar perfil
+                                </a>
+                                <a class="dropdown-item">
+                                    <i class="fas fa-envelope"></i>
+                                    Chat
+                                </a>
+                                <a class="dropdown-item">
+                                    <i class="fas fa-cog"></i>
+                                    Configurações da conta
+                                </a>
+                                <a class="dropdown-item">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    Sair
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="horizontal-main">
+            <div class="container horizontal-main-wrapper">
+                <nav class="horizontal-menu">
+                    <ul class="horizontal-menu-list row align-items-center justify-content-center">
+                        <li id="horizontal-menu-item">
+                            <a href="conteudos.html" class="sub-icon">
+                                <i class="fas fa-home"></i>
+                                Conteúdos
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="horizontal-menu-item">
+                            <a href="turmas.html" class="sub-icon">
+                                <i class="fas fa-users"></i>
+                                Turmas
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="horizontal-menu-item">
+                            <a href="certificados.html" class="sub-icon">
+                                <i class="fas fa-certificate"></i>
+                                Certificados
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="horizontal-menu-item">
+                            <a href="assinaturs.html" class="sub-icon active">
+                                <i class="fas fa-file-signature"></i>
+                                Assinaturas
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="horizontal-menu-item">
+                            <a href="comunidade.html" class="sub-icon ">
+                                <i class="fas fa-comment"></i>
+                                Comunidade
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+                                        Convites
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Membros
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="horizontal-menu-item">
+                            <a href="ranking.html" class="sub-icon ">
+                                <i class="fas fa-award"></i>
+                                Ranking
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="horizontal-menu-item">
+                            <a href="#" class="sub-icon ">
+                                <i class="fas fa-chevron-circle-down"></i>
+                                Opções extras
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+                                        Ofertas
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Relatórios
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Integrações
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Aparência
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Configurações
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-content" style="margin-bottom: 80px;">
+            <div class="container">
+                <div class="header pt-md-5">
+                    <div class="header-body">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h6 class="header-pretitle">Digitalplay</h6>
+                                <h1 class="header-title">Níveis de Assinatura</h1>
+                            </div>
+                            <div class="col-auto">
+                                <a href="" class="btn btn-primary" id="nivel">Novo nível</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div class="table-responsive rounded-top-lg">
+                        <table class="table table-sm card-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nome</th>
+                                    <th>Membros Ativos</th>
+                                    <th>Membros Pendentes</th>
+                                    <th class="text-nowrap">Data de criação</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#1241</td>
+                                    <td>Mensal</td>
+                                    <td>
+                                        0 membros
+                                    </td>
+                                    <td>0 membros</td>
+                                    <td class="narrows">26/08/2020</td>
+                                    <td class="narrows">
+                                        <div class="d-flex">
+                                            <a title="Editar" href="#" class="btn btn-sm btn-white btn-editar">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <a title="excluir" href="" data-confirm="Você tem certeza que deseja excluir este registro?" class="btn btn-sm btn-white ml-2 btn-excluir">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="modal___BV_modal_outer_" style="position: absolute; z-index: 1040;">
+                <div id="modal" class="modal" style="background: rgba(20,20,20,.5);">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div id="modal___BV_modal_content_" class="modal-content">
+                            <div id="modal___BV_modal_body_" class="modal-body">
+                                <form action="" id="new_membership_level" class="form new_membership_level">
+                                    <div class="form-group form-group-valid">
+                                        <label for="membership_level_name" class="form-control-label">
+                                            Nome
+                                        </label>
+                                        <input type="text" autofocus="autofocus" required="required" placeholder="Ex: Platinum" value="Estratégias" name="membership_level[name]" id="membership_level_name" class="form-control">
+                                    </div>
+                                    <hr class="mt-5 mb-4">
+                                    <div class="row">
+                                        <div class="col-auto ml-auto">
+                                            <a href="" class="btn btn-link text-muted" id="cancelar">Cancelar</a>
+                                            <input type="submit" name="commit" value="Criar Nível" class="btn btn-primary">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal___BV_modal_outer_" style="position: absolute; z-index: 1040;">
+                <div id="modal" class="modal modal-excluir-registro" style="background: rgba(20,20,20,.5);">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div id="modal___BV_modal_content_" class="modal-content">
+                            <div id="modal___BV_modal_body_" class="modal-body">
+                                <div id="__BVID__165___BV_modal_body_" class="modal-body">
+                                    Você tem certeza que deseja excluir este registro?
+                                </div>
+                                <footer id="__BVID__165___BV_modal_footer_" class="modal-footer">
+                                    <button type="button" class="btn btn-secondary btn-sm cancel">
+                                        Cancelar
+                                    </button>
+                                    <button type="button" class="btn btn-primary btn-sm">
+                                        Continuar
+                                    </button>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--main content-->
+
+        <footer class="bg p-3 mt-5 main-footer">
+            <div class="container-fluid">
+                <p>Copyright © 2020 <a href="#" class="afiliapay">Afiliapay</a>. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+        <div class="sidebar sidebar-right sidebar-animate ps ps--active-y">
+            <div class="panel panel-primary card mb-0 rounded-0">
+                <div class="tab-menu-heading card-header border-bottom">
+                    <div class="card-title mb-0">Notifications Of Orders</div>
+                </div>
+                <div class="">
+                    <div class="panel panel-primary">
+                        <div class=" tab-menu-heading">
+                            <div class="tabs-menu1 ">
+                                <ul class="nav panel-tabs main-nav-line">
+                                    <li class="nav-items"><a href="#orders" class="nav-link nav-linki">Recentes</a></li>
+                                    <li class="nav-items"><a href="#processing" class="nav-link nav-linki">Processando</a></li>
+                                    <li class="nav-items"><a href="#completed" class="nav-link nav-linki">Completos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body tabs-menu-body main-content-body-right">
+                            <div class="tab-content">
+                                <div class="tab-pane" id="orders">
+                                    <div class="main-content-label tx-base mg-b-25">Pedidos recentes</div>
+                                    <div class="main-media-list-activity">
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--tab pane-->
+                                <div class="tab-pane" id="processing">
+                                    <div class="main-content-label tx-base mg-b-25">Processamento de compras</div>
+                                    <div class="main-media-list-activity">
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>verificação</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--tab pane-->
+                                <div class="tab-pane" id="completed">
+                                    <div class="main-content-label tx-base mg-b-25">Compras completas</div>
+                                    <div class="main-media-list-activity">
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                        <div class="media d-flex align-items-start  ">
+                                            <div class="media-icon">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6>Verificação de compra</h6>
+                                                <span>Product ID: #0102</span>
+                                            </div>
+                                            <div class="media-right">
+                                                2m ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--tab pane-->
+                            </div>
+                            <!--tab content-->
+                        </div>
+                        <div class="card-body border-top">
+                            <div class="main-content-label tx-base mg-b-25">
+                                Compras canceladas
+                            </div>
+                            <div class="main-media-list-activity mg-b-20">
+                                <div class="media d-flex align-items-start  ">
+                                    <div class="media-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h6>Verificação de compra</h6>
+                                        <span>Product ID: #0102</span>
+                                    </div>
+                                    <div class="media-right">
+                                        2m ago
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-start  ">
+                                    <div class="media-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h6>Verificação de compra</h6>
+                                        <span>Product ID: #0102</span>
+                                    </div>
+                                    <div class="media-right">
+                                        2m ago
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-start  ">
+                                    <div class="media-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h6>Verificação de compra</h6>
+                                        <span>Product ID: #0102</span>
+                                    </div>
+                                    <div class="media-right">
+                                        2m ago
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-start  ">
+                                    <div class="media-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h6>Verificação de compra</h6>
+                                        <span>Product ID: #0102</span>
+                                    </div>
+                                    <div class="media-right">
+                                        2m ago
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-start  ">
+                                    <div class="media-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h6>Verificação de compra</h6>
+                                        <span>Product ID: #0102</span>
+                                    </div>
+                                    <div class="media-right">
+                                        2m ago
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary btn-block">
+                                    Ver todas as notificações
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--panel -->
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <!--page-->
+    <script src="/js/menu.js"></script>
+    <script src="/js/menuMain.js"></script>
+    <script src="/js/form.js"></script>
+    <script src="/js/sidebarRight.js"></script>
+    <script src="/js/tabNav.js"></script>
+    <script src="/js/perfect-scrollbar.min.js"></script>
+    <script src="/js/scroll.js"></script>
+    <script src="/js/dropDown.js"></script>
+    <script src="/js/assinaturas/dropdown.js"></script>
+</body>
+
+</html>
